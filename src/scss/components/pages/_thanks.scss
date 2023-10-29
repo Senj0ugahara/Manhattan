@@ -1,0 +1,20 @@
+.thanks {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 500px;
+  transform: translate(-50%, -50%);
+  border: 2px solid #D5621D;
+  z-index: 1;
+
+  &-inner {
+    padding: 30px;
+  }
+
+  &-descr {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #fff;
+  }
+}

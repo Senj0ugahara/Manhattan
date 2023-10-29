@@ -1,0 +1,135 @@
+.contacts {
+  &_type_page {
+    margin-top: 25px;
+  }
+
+  &-name {
+    width: 244px;
+    margin: 0 auto 40px;
+    padding: 10px 17px 7px 17px;
+    background: #fff;
+    border-radius: 5px;
+    font-family: 'Gotham Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: #210E09;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  &-title {
+    margin-bottom: 60px;
+  }
+
+  &-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    border-bottom: 1px solid rgba(255, 255, 255, .5);
+
+    @media (max-width: 1199.98px) {
+      flex-direction: column;
+    }
+  }
+
+  &-info {
+    width: 33%;
+    padding: 50px;
+    border: 2px solid #D5621D;
+    border-radius: 5px;
+
+    @media (max-width: 1199.98px) {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    &__inner {
+      @media (max-width: 1199.98px) {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      @media (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      &:first-child {
+        padding-bottom: 45px;
+        border-bottom: 1px solid rgba(255, 255, 255, .5);
+      }
+
+      &:last-child {
+        margin-top: 45px;
+      }
+    }
+
+    &__item {
+      @media (max-width: 1199.98px) {
+        width: 33%;
+        text-align: center;
+      }
+
+      @media (max-width: 768px) {
+        width: 100%;
+      }
+
+      &:not(:last-child) {
+        margin-bottom: 35px;
+      }
+    }
+
+    &__heading {
+      margin-bottom: 20px;
+      font-family: 'Gotham Pro', sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 27px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    &__link {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 21px;
+      color: #fff;
+      transition: color .3s ease-in-out;
+
+      &:hover {
+        color: #D5621D;
+      }
+    }
+
+    &__descr {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 21px;
+      color: #fff;
+    }
+  }
+
+  &-map {
+    width: 66%;
+
+    @media (max-width: 1199.98px) {
+      width: 100%;
+    }
+
+    &__link {
+      display: block;
+      height: 100%;
+
+      img {
+        height: 100%;
+        object-fit: fill;
+
+        @media (max-width: 1199.98px) {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

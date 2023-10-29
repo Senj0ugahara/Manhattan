@@ -1,0 +1,35 @@
+.btn {
+  display: block;
+  padding: 15px 30px;
+  border-radius: 5px;
+  border: 2px solid #D5621D;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: #fff;
+  text-transform: uppercase;
+  transition: all .3s ease-in-out;
+
+  &:hover {
+    box-shadow: 0 3px 15px #D5621D;
+    background: #D5621D;
+  }
+}
+
+.btn-filling {
+  display: block;
+  padding: 15px 30px;
+  background: #D5621D;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  color: #fff;
+  text-transform: uppercase;
+  transition: all .3s ease-in-out;
+
+  &:hover {
+    box-shadow: 0 3px 15px #b95517;
+    background: #b95517;
+  }
+}

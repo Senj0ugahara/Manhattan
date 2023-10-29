@@ -1,0 +1,46 @@
+.privacy-policy, .term-policy, .disclaimer-policy {
+  .container {
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgba(255,255,255,.5);
+  }
+
+  h1, h2 {
+    margin-bottom: 20px;
+    font-family: "Gotham Pro",sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+  }
+
+  p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #fff;
+  }
+
+  ul {
+    margin-bottom: 20px;
+  }
+
+  li {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #fff;
+  }
+
+  a {
+    color: #fff;
+  }
+}
+
+.disclaimer-policy {
+  .container {
+    height: 80vh;
+    padding-bottom: 0;
+  }
+}

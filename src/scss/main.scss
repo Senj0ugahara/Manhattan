@@ -1,0 +1,28 @@
+// Базовые подключения
+@import "fonts";
+@import "settings";
+@import "vars";
+
+// Подключения UI компонентов
+@import "./components/UI/navigation";
+@import "./components/UI/accordion";
+@import "./components/UI/dialog";
+@import "./components/UI/cookie";
+@import "./components/UI/form";
+@import "./components/UI/button";
+
+// Подключения компонентов страницы (большие)
+@import "./components/header";
+@import "./components/hero";
+@import "./components/kitchen";
+@import "./components/events";
+@import "./components/techrider";
+@import "./components/contacts";
+@import "./components/footer";
+
+// Подключения страниц
+@import "./components/pages/thanks";
+@import "./components/pages/poster";
+@import "./components/pages/corporate";
+@import "./components/pages/gallery";
+@import "./components/pages/privacy";

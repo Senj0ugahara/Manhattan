@@ -1,0 +1,136 @@
+.techrider {
+  margin-bottom: 150px;
+
+  @media (max-width: 576px) {
+    margin-bottom: 100px;
+  }
+
+  &-name {
+    width: 244px;
+    margin: 0 auto 47px;
+    padding: 10px 17px 7px 17px;
+    background: #fff;
+    border-radius: 5px;
+    font-family: 'Gotham Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: #210E09;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  &-title {
+    margin-bottom: 80px;
+  }
+
+  &-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    @media (max-width: 991.98px) {
+      flex-direction: column;
+    }
+  }
+
+  &-equipment {
+    width: 41%;
+    margin-right: 134px;
+
+    @media (max-width: 1199.98px) {
+      width: 49%;
+      margin-right: 0;
+    }
+
+    @media (max-width: 991.98px) {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+  }
+
+  &-team {
+    width: 33%;
+
+    @media (max-width: 1199.98px) {
+      width: 49%;
+      margin-left: auto;
+    }
+
+    @media (max-width: 991.98px) {
+      width: 100%;
+    }
+
+    &__title {
+      margin-bottom: 50px;
+      font-family: 'Gotham Pro', sans-serif;
+      font-size: 32px;
+      font-weight: 400;
+      line-height: 48px;
+      letter-spacing: 0.05em;
+      text-align: center;
+
+      @media (max-width: 576px) {
+        font-size: 26px;
+        line-height: 30px;
+      }
+    }
+
+    &__card {
+      @media (max-width: 576px) {
+        margin-bottom: 30px;
+      }
+    }
+
+    &__info {
+      display: flex;
+      justify-content: space-between;
+
+      @media (max-width: 576px) {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+
+    &__name {
+      margin: 30px 0 25px;
+      font-family: 'Gotham Pro', sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 21px;
+      letter-spacing: 0.05em;
+      text-align: center;
+      color: #fff;
+
+      @media (max-width: 576px) {
+        margin: 10px 0;
+      }
+    }
+
+    &__social {
+      display: flex;
+      justify-content: center;
+    }
+
+    &__link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      border: 2px solid #D5621D;
+      border-radius: 5px;
+      transition: all .3s ease-in-out;
+
+      &:first-child {
+        margin-right: 25px;
+      }
+
+      &:hover {
+        background: #D5621D;
+        box-shadow: 0 3px 15px #D5621D;
+      }
+    }
+  }
+}

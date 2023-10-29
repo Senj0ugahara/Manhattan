@@ -1,0 +1,65 @@
+.footer {
+  padding: 30px 0;
+
+  &-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+  }
+
+  &-copyright {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #fff;
+
+    @media (max-width: 768px) {
+      margin-bottom: 20px;
+      order: 2;
+    }
+  }
+
+  &-list {
+    @media (max-width: 768px) {
+      margin-bottom: 20px;
+      text-align: center;
+      order: 1;
+    }
+  }
+
+  &-item {
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+
+    &__link {
+      color: #fff;
+      transition: color .3s ease-in-out;
+
+      &:hover {
+        color: #D5621D;
+      }
+    }
+  }
+
+  &-author {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #fff;
+    text-align: center;
+
+    a {
+      color: #fff;
+      transition: color .3s ease-in-out;
+
+      &:hover {
+        color: #D5621D;
+      }
+    }
+  }
+}

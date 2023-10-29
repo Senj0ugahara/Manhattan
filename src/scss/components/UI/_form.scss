@@ -1,0 +1,71 @@
+.form {
+  &-item {
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  &-privacy {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #fff;
+
+    a {
+      color: #fff;
+      transition: color .3s ease-in-out;
+
+      &:hover {
+        color: #d5621d;
+      }
+    }
+  }
+
+  &__input {
+    width: 100%;
+    height: 50px;
+    padding-left: 15px;
+    border: 2px solid #d5621d;
+    border-radius: 5px;
+
+    &:focus {
+      outline: none;
+      box-shadow: 0 1px 5px #d5621d;
+    }
+  }
+
+  &__textarea {
+    width: 100%;
+    height: 100px;
+    padding: 15px 0 0 15px;
+    border: 2px solid #d5621d;
+    border-radius: 5px;
+    resize: none;
+
+    &:focus {
+      outline: none;
+      box-shadow: 0 1px 5px #d5621d;
+    }
+  }
+
+  &__checkbox {
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background: #fff;
+    border: 2px solid #d5621d;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:checked {
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e");
+      background-color: #d5621d;
+      border-color: #d5621d;
+      z-index: 1;
+    }
+  }
+
+  &__btn {
+    margin: 0 auto;
+  }
+}
