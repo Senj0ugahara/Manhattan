@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manhattan</title>
+
+  <link rel="stylesheet" href="../styles/vendor.css">
+  <link rel="stylesheet" href="../styles/style.min.css">
+</head>
+
+<body>
+  <div class="overlay"></div>
+  <header class="header">
+    <div class="container">
+      <div class="header-wrapper">
+        <div class="header-logo">
+          <a href="/">
+            <img src="../resources/images/logo.png" alt="Manhattan">
+          </a>
+        </div>
+        <nav class="header-nav nav">
+          <ul class="list-reset nav-list">
+            <li class="nav-item">
+              <a class="nav-item__link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-item__link" href="corporate.html">Corporate</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-item__link" href="poster.html">Poster</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-item__link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-item__link" href="contacts.html">Contacts</a>
+            </li>
+          </ul>
+          <div class="nav-button">
+            <button class="btn-reset btn header-btn header-btn_type_mobile">Reservation</button>
+          </div>
+        </nav>
+        <div class="header-button">
+          <button class="btn-reset btn header-btn">Reservation</button>
+        </div>
+        <div class="header-burger">
+          <span class="header-burger__line"></span>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="disclaimer-policy">
+      <div class="container">
+        <h2 class="title">Disclaimer</h2>
+        <p>If you require any more information or have any questions about our site's disclaimer, please feel free to
+          contact us by email at feedbackworried@mail.com.</p>
+
+        <p>All the information on this website - <span class="domaintextname-ylufQ4P">caveties.com</span> - is
+          published in good faith and for general information purpose only. <span
+            class="domaintextname-ylufQ4P">caveties.com</span> does not make any warranties about the completeness,
+          reliability and accuracy of this information. Any action you take upon the information you find on this
+          website, is strictly at your own risk. <span class="domaintextname-ylufQ4P">caveties.com</span> will not be
+          liable for any losses and/or damages in connection with the use of our website.</p>
+
+        <p>From our website, you can visit other websites by following hyperlinks to such external sites. While we
+          strive to provide only quality links to useful and ethical websites, we have no control over the content and
+          nature of these sites. These links to other websites do not imply a recommendation for all the content found
+          on these sites. Site owners and content may change without notice and may occur before we have the
+          opportunity to remove a link which may have gone 'bad'.</p>
+
+        <p>Please be also aware that when you leave our website, other sites may have different privacy policies and
+          terms which are beyond our control. Please be sure to check the Privacy Policies of these sites as well as
+          their "Terms of Service" before engaging in any business or uploading any information.</p>
+
+        <h2>Consent</h2>
+
+        <p>By using our website, you hereby consent to our disclaimer and agree to its terms.</p>
+
+        <h2>Update</h2>
+
+        <p>Should we update, amend or make any changes to this document, those changes will be prominently posted
+          here.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-wrapper">
+        <p class="footer-copyright">Copyright © 2023. All rights reserved.</p>
+        <ul class="list-reset footer-list">
+          <li class="footer-item">
+            <a class="footer-item__link" href="privacy_policy.html">Privacy policy</a>
+          </li>
+          <li class="footer-item">
+            <a class="footer-item__link" href="term_policy.html">Terms & Conditions</a>
+          </li>
+          <li class="footer-item">
+            <a class="footer-item__link" href="term_policy.html">Disclaimer</a>
+          </li>
+        </ul>
+      </div>
+      <p class="footer-author">
+        Developed by
+        <a href="https://github.com/Senj0ugahara" target="_blank">Rei Senjougahara</a>
+      </p>
+    </div>
+  </footer>
+
+  <div class="dialog">
+    <div class="dialog-wrapper">
+      <h2 class="title dialog-title">Reservation form</h2>
+      <div class="dialog-close"></div>
+      <form class="form dialog-form">
+        <div class="form-item">
+          <input class="input-reset form__input" type="text" name="name" placeholder="Enter your name" required>
+        </div>
+        <div class="form-item">
+          <input class="input-reset form__input" type="phone" name="phone" placeholder="Enter your phone" required>
+        </div>
+        <div class="form-item">
+          <textarea class="input-reset form__textarea" name="message" placeholder="Enter your message"
+            required></textarea>
+        </div>
+        <div class="form-item">
+          <input class="input-reset form__checkbox" type="checkbox" required>
+          <p class="form-privacy">
+            I accept
+            <a href="privacy_policy.html">Privacy policy</a>
+          </p>
+        </div>
+        <button class="btn-reset btn form__btn">Send</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="../scripts/main.min.js"></script>
+</body>
+
+</html>
